@@ -15,21 +15,22 @@ Requires:       dconf
 %description
 The tigeros-backgrounds package contains
 tigeros related artwork intended to be used 
-as desktop background image.
+as a desktop background image.
 
 %prep
 %setup -q
 
 %install
-rm -rf %{buildroot}
 mkdir -p %{buildroot}%{_datadir}/backgrounds/tigeros
 mkdir -p %{buildroot}%{_datadir}/glib-2.0/schemas
+
 for i in wallpapers/*
-	do
-		install -m0644 $i %{buildroot}%{_datadir}/backgrounds/tigeros
-	done
-install -Dm0644 tigeros-backgrounds.xml %{buildroot}%{_datadir}/gnome-background-properties/tigeros-backgrounds.xml
-install -m0644 20_tigeros.gschema.override %{buildroot}%{_datadir}/glib-2.0/schemas/20_tigeros.gschema.override
+do
+	install -m 644 $i %{buildroot}%{_datadir}/backgrounds/tigeros
+done
+
+install -D -m 644 tigeros-backgrounds.xml %{buildroot}%{_datadir}/gnome-background-properties/tigeros-backgrounds.xml
+install -m 644 20_tigeros.gschema.override %{buildroot}%{_datadir}/glib-2.0/schemas/20_tigeros.gschema.override
 
 %post
 glib-compile-schemas /usr/share/glib-2.0/schemas 2>/dev/null
