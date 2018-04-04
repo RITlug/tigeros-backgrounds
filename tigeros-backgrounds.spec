@@ -5,8 +5,8 @@ Summary:        Desktop wallpapers for the TigerOS Fedora Remix
 
 Group:          Applications/Multimedia
 License:        CC-BY-SA-4.0
-URL:            https://github.com/RITlug/TigerOS
-Source0:        %{name}.tar.gz
+URL:            https://github.com/RITlug/tigeros-backgrounds
+Source0:        %{name}-%{version}-%{release}.tar.gz
 
 BuildArch:      noarch
 Requires:       glib2
