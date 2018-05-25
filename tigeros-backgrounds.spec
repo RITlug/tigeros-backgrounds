@@ -49,6 +49,12 @@ dconf update
 /usr/share/gnome-background-properties
 /usr/share/glib-2.0/schemas/20_tigeros.gschema.override
 /usr/share/backgrounds/tigeros/tigeros.xml
+/usr/share/backgrounds/tigeros/wallpaper1-1920x1080.png
+/usr/share/backgrounds/tigeros/wallpaper2-1920x1080.png
+/usr/share/backgrounds/tigeros/wallpaper2-dark-1920x1080.png
+/usr/share/backgrounds/tigeros/wallpaper2-dark2-1920x1080.png
+/usr/share/backgrounds/tigeros/wallpaper3-1920x1080.png
+/usr/share/backgrounds/tigeros/wallpaper3-dark-1920x1080.png
 
 %changelog
 * Thu May 24 2018 Tim Zabel <tjz8659@rit.edu> - 1.0-18
