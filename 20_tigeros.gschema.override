@@ -1,5 +1,5 @@
 [org.gnome.desktop.background]
-picture-uri="file:///usr/share/backgrounds/tigeros/wallpaper2-1920x1080.jpg"
+picture-uri="file:///usr/share/backgrounds/tigeros/wallpaper2-1920x1080.png"
 
 [org.gnome.desktop.screensaver]
 picture-uri="file:///usr/share/backgrounds/tigeros/tigeros.xml"

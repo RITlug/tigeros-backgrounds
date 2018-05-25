@@ -3,7 +3,7 @@
 <wallpapers>
   <wallpaper>
     <name>TigerOS orange</name>
-    <filename>/usr/share/backgrounds/tigeros/wallpaper1-1920x1080.jpg</filename>
+    <filename>/usr/share/backgrounds/tigeros/wallpaper1-1920x1080.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#FFFFFF</pcolor>
@@ -11,7 +11,7 @@
   </wallpaper>
   <wallpaper>
     <name>TigerOS default</name>
-    <filename>/usr/share/backgrounds/tigeros/wallpaper2-1920x1080.jpg</filename>
+    <filename>/usr/share/backgrounds/tigeros/wallpaper2-1920x1080.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#FFFFFF</pcolor>
@@ -19,7 +19,7 @@
   </wallpaper>
   <wallpaper>
     <name>TigerOS white</name>
-    <filename>/usr/share/backgrounds/tigeros/wallpaper3-1920x1080.jpg</filename>
+    <filename>/usr/share/backgrounds/tigeros/wallpaper3-1920x1080.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#FFFFFF</pcolor>

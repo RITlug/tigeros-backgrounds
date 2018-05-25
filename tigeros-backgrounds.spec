@@ -1,6 +1,6 @@
 Name:           tigeros-backgrounds
 Version:        1.0
-Release:        17%{?dist}
+Release:        18%{?dist}
 Summary:        Desktop wallpapers for the TigerOS Fedora Remix
 
 Group:          Applications/Multimedia
@@ -46,11 +46,15 @@ dconf update
 %files
 %defattr(-,root,root,-)
 %doc LICENSE
-%{_datadir}/backgrounds
-%{_datadir}/gnome-background-properties
-%{_datadir}/glib-2.0/schemas/20_tigeros.gschema.override
+/usr/share/gnome-background-properties
+/usr/share/glib-2.0/schemas/20_tigeros.gschema.override
+/usr/share/backgrounds/tigeros/tigeros.xml
 
 %changelog
+* Thu May 24 2018 Tim Zabel <tjz8659@rit.edu> - 1.0-18
+- Change images to PNG
+- update files
+
 * Tue May 8 2018 Tim Zabel <tjz8659@rit.edu> - 1.0-17
 - Fixed post uninstall
 - Added tigeros.xml
