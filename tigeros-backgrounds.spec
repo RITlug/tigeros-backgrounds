@@ -1,9 +1,8 @@
 Name:           tigeros-backgrounds
 Version:        1.0
-Release:        18%{?dist}
-Summary:        Desktop wallpapers for the TigerOS Fedora Remix
+Release:        19%{?dist}
+Summary:        Desktop images for the TigerOS Fedora Remix
 
-Group:          Applications/Multimedia
 License:        CC-BY-SA-4.0
 URL:            https://github.com/RITlug/tigeros-backgrounds
 Source0:        %{name}-%{version}-%{release}.tar.gz
@@ -21,12 +20,18 @@ as a desktop background image.
 %setup -q
 
 %install
-mkdir -p %{buildroot}%{_datadir}/backgrounds/tigeros
+mkdir -p %{buildroot}%{_datadir}/backgrounds/tigeros/wallpapers
+mkdir -p %{buildroot}%{_datadir}/backgrounds/tigeros/lockscreens
 mkdir -p %{buildroot}%{_datadir}/glib-2.0/schemas
 
 for i in wallpapers/*
 do
-	install -m 644 $i %{buildroot}%{_datadir}/backgrounds/tigeros
+	install -m 644 $i %{buildroot}%{_datadir}/backgrounds/tigeros/wallpapers
+done
+
+for i in lockscreens/*
+do
+	install -m 644 $i %{buildroot}%{_datadir}/backgrounds/tigeros/lockscreens
 done
 
 install -D -m 644 tigeros-backgrounds.xml %{buildroot}%{_datadir}/gnome-background-properties/tigeros-backgrounds.xml
@@ -49,14 +54,26 @@ dconf update
 /usr/share/gnome-background-properties
 /usr/share/glib-2.0/schemas/20_tigeros.gschema.override
 /usr/share/backgrounds/tigeros/tigeros.xml
-/usr/share/backgrounds/tigeros/wallpaper1-1920x1080.png
-/usr/share/backgrounds/tigeros/wallpaper2-1920x1080.png
-/usr/share/backgrounds/tigeros/wallpaper2-dark-1920x1080.png
-/usr/share/backgrounds/tigeros/wallpaper2-dark2-1920x1080.png
-/usr/share/backgrounds/tigeros/wallpaper3-1920x1080.png
-/usr/share/backgrounds/tigeros/wallpaper3-dark-1920x1080.png
+# Wallpapers
+/usr/share/backgrounds/tigeros/wallpapers/orange_simple-1920x1080.png
+/usr/share/backgrounds/tigeros/wallpapers/orange_colorful-1920x1080.png
+/usr/share/backgrounds/tigeros/wallpapers/white_simple-1920x1080.png
+/usr/share/backgrounds/tigeros/wallpapers/black_and_white-1920x1080.png
+/usr/share/backgrounds/tigeros/wallpapers/dark_colorful-1920x1080.png
+/usr/share/backgrounds/tigeros/wallpapers/dark_simple-1920x1080.png
+# Lockscreens
+/usr/share/backgrounds/tigeros/lockscreens/dark_left-1920x1080.png
+/usr/share/backgrounds/tigeros/lockscreens/dark_no_tiguin-1920x1080.png
+/usr/share/backgrounds/tigeros/lockscreens/dark_right-1920x1080.png
+/usr/share/backgrounds/tigeros/lockscreens/orange_left-1920x1080.png
+/usr/share/backgrounds/tigeros/lockscreens/orange_no_tiguin-1920x1080.png
+/usr/share/backgrounds/tigeros/lockscreens/orange_right-1920x1080.png
 
 %changelog
+* Sat Aug 11 2018 Tim Zabel <tjz8659@rit.edu> - 1.0-19
+- Add lockscreen images
+- Rename images to match view
+
 * Thu May 24 2018 Tim Zabel <tjz8659@rit.edu> - 1.0-18
 - Change images to PNG
 - update files

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+
+<!-- Wallpapers -->
+
 <wallpapers>
+
   <wallpaper>
     <name>TigerOS orange</name>
-    <filename>/usr/share/backgrounds/tigeros/wallpaper1-1920x1080.png</filename>
+    <filename>/usr/share/backgrounds/tigeros/wallpapers/orange_simple-1920x1080.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#FFFFFF</pcolor>
@@ -11,7 +15,7 @@
   </wallpaper>
   <wallpaper>
     <name>TigerOS default</name>
-    <filename>/usr/share/backgrounds/tigeros/wallpaper2-1920x1080.png</filename>
+    <filename>/usr/share/backgrounds/tigeros/wallpapers/orange_colorful-1920x1080.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#FFFFFF</pcolor>
@@ -19,10 +23,86 @@
   </wallpaper>
   <wallpaper>
     <name>TigerOS white</name>
-    <filename>/usr/share/backgrounds/tigeros/wallpaper3-1920x1080.png</filename>
+    <filename>/usr/share/backgrounds/tigeros/wallpapers/white_simple-1920x1080.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#FFFFFF</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
+  <wallpaper>
+    <name>TigerOS black and white</name>
+    <filename>/usr/share/backgrounds/tigeros/wallpapers/black_and_white-1920x1080.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper>
+    <name>TigerOS dark orange</name>
+    <filename>/usr/share/backgrounds/tigeros/wallpapers/dark_orange-1920x1080.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper>
+    <name>TigerOS dark simple</name>
+    <filename>/usr/share/backgrounds/tigeros/wallpapers/dark_simple-1920x1080.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+
+  <!-- Lockscreen Images -->
+
+  <wallpaper>
+    <name>TigerOS dark left</name>
+    <filename>/usr/share/backgrounds/tigeros/lockscreens/dark_left-1920x1080.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper>
+    <name>TigerOS dark clean</name>
+    <filename>/usr/share/backgrounds/tigeros/lockscreens/dark_no_tiguin-1920x1080.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper>
+    <name>TigerOS dark right</name>
+    <filename>/usr/share/backgrounds/tigeros/lockscreens/dark_right-1920x1080.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper>
+    <name>TigerOS orange left</name>
+    <filename>/usr/share/backgrounds/tigeros/lockscreens/orange_left-1920x1080.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper>
+    <name>TigerOS orange clean</name>
+    <filename>/usr/share/backgrounds/tigeros/lockscreens/orange_no_tiguin-1920x1080.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper>
+    <name>TigerOS orange right</name>
+    <filename>/usr/share/backgrounds/tigeros/lockscreens/orange_right-1920x1080.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+
 </wallpapers>
