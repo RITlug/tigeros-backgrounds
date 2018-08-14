@@ -1,6 +1,6 @@
 Name:           tigeros-backgrounds
 Version:        1.0
-Release:        19%{?dist}
+Release:        20%{?dist}
 Summary:        Desktop images for the TigerOS Fedora Remix
 
 License:        CC-BY-SA-4.0
@@ -70,6 +70,9 @@ dconf update
 /usr/share/backgrounds/tigeros/lockscreens/orange_right-1920x1080.png
 
 %changelog
+* Mon Aug 13 2018 Tim Zabel <tjz8659@rit.edu> - 1.0-20
+- Fix filename error
+
 * Sat Aug 11 2018 Tim Zabel <tjz8659@rit.edu> - 1.0-19
 - Add lockscreen images
 - Rename images to match view

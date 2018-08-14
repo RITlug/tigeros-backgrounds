@@ -39,7 +39,7 @@
   </wallpaper>
   <wallpaper>
     <name>TigerOS dark orange</name>
-    <filename>/usr/share/backgrounds/tigeros/wallpapers/dark_orange-1920x1080.png</filename>
+    <filename>/usr/share/backgrounds/tigeros/wallpapers/dark_colorful-1920x1080.png</filename>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#FFFFFF</pcolor>
